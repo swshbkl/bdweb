@@ -30,6 +30,10 @@ jobs:
         uses: actions/download-artifact@master
         with:
           name: build
+      - name: Wget firebase.json from bdfrb
+        uses: wei/wget@v1.1.1
+        with:
+          args: -O firebase.json https://raw.githubusercontent.com/swshbkl/bdfrb/master/firebase.json
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
@@ -37,4 +41,3 @@ jobs:
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
           PROJECT_ID: buildarium
-          PROJECT_PATH: https://raw.githubusercontent.com/swshbkl/bdfrb/master/firebase.json
