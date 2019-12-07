@@ -36,3 +36,5 @@ jobs:
           args: deploy --only hosting:buildarium -m "${{ github.ref }}"
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+          PROJECT_ID: buildarium
+          PROJECT_PATH: https://raw.githubusercontent.com/swshbkl/bdfrb/master/firebase.json
