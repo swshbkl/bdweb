@@ -13,7 +13,7 @@
 [![Framework](https://img.shields.io/badge/framework-react-67DBF9.svg?longCache=true)](https://reactjs.org/docs/getting-started.html)
 [![Deployment](https://img.shields.io/badge/deployment-firebase-FECA41.svg?longCache=true)](https://firebase.google.com/docs/hosting)
 
-[![Discord](https://img.shields.io/discord/649868467893305346)](https://indiecasa.slack.com/app_redirect?channel=icweb)
+[![Discord](https://img.shields.io/discord/649868467893305346)](https://discordapp.com/channels/649868467893305346/651900766583259156)
 [![Email](https://img.shields.io/badge/email-buck-blue.svg?longCache=true)](mailto:buck@bucktower.net)
 ![Maintenance](https://img.shields.io/maintenance/yes/2019.svg?style=flat-square)
 
@@ -86,7 +86,7 @@ $ npm run lint
 
 - 👯 Click this button that you can also find up top:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/swshbkl/kbweb)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/swshbkl/bdweb)
 
 **The `master` branch is the single-source-of-truth. No other banches at the moment, we're just tring to go as fast as possible.**
 
@@ -167,6 +167,8 @@ Since it's in the cloud, others can access it over the open ports while it's run
   ...
 }
 ```
+
+### Step 2
 
 Deployed to [`app.buildarium.com`](https://app.buildarium.com) automatically whenever a new [Release](https://github.com/swshbkl/bdweb/releases) is created off of the `master` branch.
 
